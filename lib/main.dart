@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:routineflow_widget/routine_finder.dart';
 import 'package:routineflow_widget/routineflow_widget.dart';
 
 void main() {
@@ -47,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              ClosestRoutine(),
           RoutineFlow()
             ],
           ),
